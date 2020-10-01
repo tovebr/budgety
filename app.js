@@ -169,6 +169,8 @@ var UIController = (function(){
             fields.forEach(function(curr) {
                document.querySelector(curr).value = ''; 
             });
+
+            document.querySelector(fields[0]).focus();
         },
         
         displayNewItem: function(newItem, type) {
